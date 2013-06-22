@@ -28,8 +28,8 @@
         <h1>Coloreando</h1>
         <form id="login-form" class="login" method="POST" action="{% url 'login_view' %}">
             {% csrf_token %}
-            <div class="">Poné tu nombre: <input type="text" name="username" />
-            <div class="">Elegí tu color: <input id="color-selector"></div>
+            <div class="">Poné tu nombre: <input type="text" name="username" /></div>
+            <div class="">Elegí tu color: <input id="color-selector" name="color" /></div>
             <div class="sign-in-button"><input type="submit" name="submit" value="Entrar"></div>
         </form>
     </div>
