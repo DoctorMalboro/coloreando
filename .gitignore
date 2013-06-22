@@ -1,6 +1,13 @@
+<<<<<<< HEAD
 .pyc
 *.sqlite
 bin/
 lib/
 include
 lib64
+=======
+bin/
+lib/
+include/
+*.pyc
+>>>>>>> 9f564308a49f2f3bc77c6620d6672fcc218e1c72
